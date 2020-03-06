@@ -8,4 +8,61 @@
     background-size:cover;
     background-position:center;
     background-clip:border-box;
+
+    &__image {
+        width: 206px;
+        height: 107px;
+        object-fit: contain;
+    }
+
+    &__title {
+        width: 954px;
+        height: 82px;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        font-family: Avenir;
+        font-size: 80px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: oblique;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+
+        &-div {
+            width: 1037px;
+            height: 168px;
+            border-radius: 37px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+            background-color: #252525;
+        }
+    }
+
+    &__text {
+        width: 421px;
+        height: 181px;
+        font-family: Avenir;
+        font-size: 25px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__text2 {
+        width: 273px;
+        height: 47px;
+        font-family: Avenir;
+        font-size: 40px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+        border-bottom: 2px solid black;
+    }
 }
