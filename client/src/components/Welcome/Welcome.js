@@ -7,6 +7,7 @@ import cube from '../../assets/images/PNG/cube.png';
 const Main = () => {
     return(
         <div className="welcome">
+            
             {/* <h1>Home</h1> */}
             <img className="welcome__image" src={canadaFlag} alt="canada flag image" />
             <div className="welcome__title-div">
