@@ -7,4 +7,11 @@ background-image:url("../../assets/images/PNG/background3.png");
 background-size:cover;
 background-position:center;
 background-clip:border-box;
+
+&__iframe {
+    height: 90vh;
+    width: 80%;
+    padding-left: 10%;
+    border-style: none;
+}
 }
