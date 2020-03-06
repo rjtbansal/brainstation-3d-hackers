@@ -1,10 +1,11 @@
 import React from 'react';
-import SideBar from './components/SideBar/SideBar';
 import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import Main from './components/Welcome/Welcome';
 import {BrowserRouter,Route,Switch} from 'react-router-dom';
 import './App.scss';
 import  Helmet  from 'react-helmet';
+import Social from './components/Social/Social';
+import Developers from './components/Developers/Developers';
 
 function App() {
   const HomePage = ()=>{
@@ -12,9 +13,15 @@ function App() {
         <Main/>
     )
   }
-  const SideBarPage = () => {
+ 
+  const SocialPage = () =>{
     return(
-        <SideBar/>
+      <Social/>
+    )
+  }
+  const DevelopersPage = () =>{
+    return(
+      <Developers/>
     )
   }
   return (
@@ -26,7 +33,8 @@ function App() {
         <Header/>
         <Switch>
           <Route exact path= "/" component={HomePage} />
-          <Route path ="/sidebar" component ={SideBarPage} />
+          <Route path ="/socialMedia" component ={SocialPage} />
+          <Route path ="/developers" component ={DevelopersPage} />
         </Switch>
       </BrowserRouter>
     </div>
