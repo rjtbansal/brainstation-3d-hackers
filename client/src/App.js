@@ -6,6 +6,7 @@ import './App.scss';
 import  Helmet  from 'react-helmet';
 import Social from './components/Social/Social';
 import Developers from './components/Developers/Developers';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const HomePage = ()=>{
@@ -37,6 +38,7 @@ function App() {
           <Route path ="/developers" component ={DevelopersPage} />
         </Switch>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
