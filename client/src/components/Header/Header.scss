@@ -4,8 +4,9 @@
     flex-wrap:wrap;
     align-items: center;
     justify-content: center;
-    height:80px;
-    background-color:#0098ff;
+    height:10vh;
+    background-color:#000;
+    color:#fff;
     &__nav-link{
         text-decoration:none;
         width:80%;
@@ -17,9 +18,13 @@
         list-style: none;
         li{
             display:inline;
+            color:#fff;
+            padding:0px 10px;
+            border:2px solid rgba(0,0,0,0);
         }
         li:hover{
-            color:brown;
+            border-left:2px solid white;
+            border-right:2px solid white;
             cursor:grap;
         }
     }

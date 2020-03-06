@@ -1,5 +1,10 @@
 // import the base SCSS mixins, variables etc for use in all your components
 @import './styles/utils/base';
+@import './styles/fonts';
+
+html,body{
+    font-family:avenir;
+}
 
 // TODO: replace the following styles once you start!
 .App {
